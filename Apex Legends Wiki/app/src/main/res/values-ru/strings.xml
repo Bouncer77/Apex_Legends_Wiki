@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Apex Legends Wiki</string>
+    <string name="bangalore_name">Бангалор</string>
+    <string name="bloodhound_name">Бладхаунд</string>
+    <string name="caustic_name">Каустик</string>
+    <string name="crypto_name">Крипто</string>
+    <string name="gibraltar_name">Гибралтар</string>
+    <string name="lifeline_name">Лайфлфйн</string>
+    <string name="mirage_name">Мираж</string>
+    <string name="octane_name">Октейн</string>
+    <string name="pathfinder_name">Патфайндер</string>
+    <string name="wattson_name">Ваттсон</string>
+    <string name="wraith_name">Рэйф</string>
+    <string name="contact_with_me">Если Вы нашли ошибку - сообщите мне t.me/apex_legends_wiki</string>
+</resources>

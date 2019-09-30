@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Apex Legends Wiki</string>
+    <string name="bangalore_name">Bangalore</string>
+    <string name="bloodhound_name">Bloodhound</string>
+    <string name="caustic_name">Caustic</string>
+    <string name="crypto_name">Crypto</string>
+    <string name="gibraltar_name">Gibraltar</string>
+    <string name="lifeline_name">Lifeline</string>
+    <string name="mirage_name">Mirage</string>
+    <string name="octane_name">Octane</string>
+    <string name="pathfinder_name">Pathfinder</string>
+    <string name="wattson_name">Wattson</string>
+    <string name="wraith_name">Wraith</string>
+    <string name="contact_with_me">If you find a mistake - let me know t.me/apex_legends_wiki</string>
+</resources>
