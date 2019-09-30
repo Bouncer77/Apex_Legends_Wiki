@@ -13,7 +13,38 @@
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/imageButton9"
+            android:id="@+id/imageButtonCausticInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/caustic_name"
+            android:onClick="onClickOpenCausticInfo"
+            app:srcCompat="@drawable/caustic" />
+
+        <ImageButton
+            android:id="@+id/imageButtonBloodhoundInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/bloodhound_name"
+            app:srcCompat="@drawable/bloodhound" />
+
+        <ImageButton
+            android:id="@+id/imageButtonBangaloreInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/bangalore_name"
+            app:srcCompat="@drawable/bangalore" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButtonPathfinderInfo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/pathfinder_name"
@@ -24,13 +55,15 @@
             android:id="@+id/imageButton8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/octane_name"
             android:layout_weight="1"
             app:srcCompat="@drawable/octane" />
 
         <ImageButton
-            android:id="@+id/imageButton7"
+            android:id="@+id/imageButtonMirageInfo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/mirage_name"
             android:layout_weight="1"
             app:srcCompat="@drawable/mirage" />
     </LinearLayout>
@@ -41,23 +74,26 @@
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/imageButton6"
+            android:id="@+id/imageButtonLifelineInfo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/lifeline_name"
             android:layout_weight="1"
             app:srcCompat="@drawable/lifeline" />
 
         <ImageButton
-            android:id="@+id/imageButton5"
+            android:id="@+id/imageButtonGibraltarInfo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/gibraltar_name"
             android:layout_weight="1"
             app:srcCompat="@drawable/gibraltar" />
 
         <ImageButton
-            android:id="@+id/imageButton4"
+            android:id="@+id/imageButtonCryptoInfo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/crypto_name"
             android:layout_weight="1"
             app:srcCompat="@drawable/crypto" />
     </LinearLayout>
@@ -68,48 +104,23 @@
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/imageButton14"
+            android:id="@+id/imageButtonWraithInfo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/caustic" />
-
-        <ImageButton
-            android:id="@+id/imageButton13"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/bloodhound" />
-
-        <ImageButton
-            android:id="@+id/imageButton12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/bangalore" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <ImageButton
-            android:id="@+id/imageButton11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:contentDescription="@string/wraith_name"
             android:layout_weight="1"
             app:srcCompat="@drawable/wraith" />
 
         <ImageButton
-            android:id="@+id/imageButton10"
+            android:id="@+id/imageButtonWattsonInfo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/wattson_name"
             android:layout_weight="1"
             app:srcCompat="@drawable/wattson" />
 
         <ImageButton
-            android:id="@+id/imageButton16"
+            android:id="@+id/imageButtonWeaponsInfo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -121,12 +132,29 @@
         android:layout_height="match_parent"
         android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/textView4"
+        <ImageButton
+            android:id="@+id/imageButtonHelpInfo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/about_program_name"
             android:layout_weight="1"
-            android:text="TextView" />
+            app:srcCompat="@android:drawable/ic_menu_info_details" />
+
+        <ImageButton
+            android:id="@+id/imageButtonEventsInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/events_name"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/btn_star_big_on" />
+
+        <ImageButton
+            android:id="@+id/imageButtonLifeHacksInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/weapons_name"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_menu_mylocation" />
     </LinearLayout>
 
 </LinearLayout>

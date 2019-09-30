@@ -13,4 +13,7 @@
     <string name="wattson_name">Wattson</string>
     <string name="wraith_name">Wraith</string>
     <string name="contact_with_me">If you find a mistake - let me know t.me/apex_legends_wiki</string>
+    <string name="about_program_name">About the program</string>
+    <string name="events_name">Events</string>
+    <string name="weapons_name">Weapons</string>
 </resources>

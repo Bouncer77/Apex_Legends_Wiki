@@ -13,4 +13,7 @@
     <string name="wattson_name">Ваттсон</string>
     <string name="wraith_name">Рэйф</string>
     <string name="contact_with_me">Если Вы нашли ошибку - сообщите мне t.me/apex_legends_wiki</string>
+    <string name="about_program_name">О программе</string>
+    <string name="events_name">Мероприятия</string>
+    <string name="weapons_name">Оружие</string>
 </resources>
